@@ -1,8 +1,6 @@
 html {
 	scroll-behavior: smooth;
 	background-color: white;
-	background: url('Images/TitleImage.png') no-repeat center center fixed;
-	background-size: cover;
 }
 
 body {
@@ -46,6 +44,24 @@ p {
 	p {
 		font-size: 1em;
 	}
+}
+
+.titleImage {
+	min-height: 100%;
+	min-width: 1024px;
+
+	width: 100%;
+	height: auto;
+	position: fixed;
+
+	background: url('Images/TitleImage.png') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	z-index: -1;
 }
 
 .header {
@@ -227,4 +243,14 @@ p {
 .footerText:hover {
 	  color: #28313385;
 	  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px)  {
+	.centerText {
+		font-size: 16px;
+	}
+
+	.callToAction {
+		font-size: 24px;
+	}
 }
