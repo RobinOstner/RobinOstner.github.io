@@ -1,0 +1,222 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #f7f5f2;
+	margin: 0;
+}
+
+h1 {
+	font-size: 54px;
+	color: #283133;
+	font-family: 'Allerta Stencil', sans-serif;
+	letter-spacing: 20px;
+}
+
+h2 {
+  margin: 0;
+	color: #283133;
+  font-size: 32px;
+  font-family: 'Allerta Stencil', sans-sans-serif;
+}
+
+h3 {
+  margin: 0;
+	color: #283133;
+  font-size: 24px;
+  font-family: 'Big Shoulders Text', sans-sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+	font-family: 'Big Shoulders Text', sans-serif;
+	font-size: 24px;
+}
+
+li {
+	font-family: 'Big Shoulders Text', sans-serif;
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2% 3%;
+	align-items:
+}
+
+.title {
+	display: inline;
+	font-size: 2em;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-weight: bolder;
+	letter-spacing: .1em;
+	color: white;
+	margin: 0;
+	transition: color .3s;
+}
+
+.title:hover {
+  color: #ffffff85;
+  cursor: pointer;
+}
+
+.headerItem {
+	display: inline;
+  font-size: 1.5em;
+	font-family: 'Allerta Stencil', sans-serif;
+  color: white;
+  letter-spacing: .2em;
+  margin-left: 1em;
+
+	transition: color .3s;
+}
+
+.headerItem:hover {
+  color: #ffffff85;
+  cursor: pointer;
+}
+
+.previewImage {
+	background-image: url("Screenshot1.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+	.header {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.title {
+		justify-content: center;
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	.headerItems {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 1em;
+		align-items: center;
+	}
+
+	.headerItem {
+		font-size: 1em;
+		padding: .2em;
+		margin: 0;
+	}
+}
+
+.divider {
+	height: 2px;
+	background-color: white;
+	margin: 50px 28% 0;
+}
+
+.footer {
+	display: block;
+	height: auto;
+	background-color: #f7f5f2;
+	margin: 0;
+	padding: 2em;
+}
+
+.footerText {
+	font-size: 16px;
+	color: #283133;
+	margin: 0;
+	text-align: center;
+  padding: 10px;
+	transition: color .3s;
+}
+
+.footerText:hover {
+	  color: #28313385;
+	  cursor: pointer;
+}
+
+.headline {
+  font-size: 3em;
+	letter-spacing: .2em;
+  text-align: center;
+  margin: 50px 0 0 0 ;
+  padding: 0 25%;
+  color: white;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+	.headline {
+		font-size: 1.5em;
+		padding: 0 5%;
+	}
+
+	.divider {
+		margin: 50px 7% 0;
+	}
+}
+
+.centerText {
+  text-align: center;
+}
+
+.container {
+  margin: 15px 0 0 0;
+  padding: 0px 25%;
+}
+
+.content {
+  margin: 0;
+  padding: 25px 5%;
+  background-color: white;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 900px) {
+	.content {
+	  padding: 25px 25%;
+	}
+}
+
+.link {
+	opacity: 0.7;
+}
+
+.image {
+	width: 96%;
+	padding: 2%;
+}
+
+.callToAction {
+  padding-top: 50px;
+  text-align: center;
+	background-color: #f7f5f2;
+}

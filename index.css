@@ -1,9 +1,10 @@
 html {
 	scroll-behavior: smooth;
+	background: url('Images/BackgroundImage.jpg') no-repeat center center fixed;
+	background-size: cover;
 }
 
 body {
-	background-color: #f7f5f2;
 	margin: 0;
 }
 
@@ -60,13 +61,13 @@ p {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-weight: bolder;
 	letter-spacing: .1em;
-	color: #283133;
+	color: white;
 	margin: 0;
 	transition: color .3s;
 }
 
 .title:hover {
-  color: #28313385;
+  color: #ffffff88;
   cursor: pointer;
 }
 
@@ -74,7 +75,7 @@ p {
 	display: inline;
   font-size: 1.5em;
 	font-family: 'Allerta Stencil', sans-serif;
-  color: #283133;
+  color: white;
   letter-spacing: .2em;
   margin-left: 1em;
 
@@ -82,18 +83,8 @@ p {
 }
 
 .headerItem:hover {
-  color: #28313385;
+  color: #ffffff88;
   cursor: pointer;
-}
-
-.welcomeImage {
-	width: 100%;
-	height: auto;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	z-index: -1;
 }
 
 @media only screen and (max-width: 900px) {
@@ -121,12 +112,6 @@ p {
 		padding: .25em;
 	  font-size: 1em;
 		margin: 0;
-	}
-}
-
-@media only screen and (min-width: 900px) {
-	.welcomeImage {
-		width: 35%;
 	}
 }
 
