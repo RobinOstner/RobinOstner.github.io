@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	background-color: white;
 	background: url('Images/TitleImage.png') no-repeat center center fixed;
 	background-size: cover;
 }
@@ -209,6 +210,18 @@ p {
 	color: #283133;
 	margin: 0;
 	text-align: center;
+}
+
+.callToAction {
+  padding-top: 50px;
+  text-align: center;
+	background-color: white;
+  font-size: 32px;
+}
+
+.centerText {
+  text-align: center;
+  font-size: 24px;
 }
 
 .footerText:hover {
