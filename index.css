@@ -48,10 +48,8 @@ p {
 
 .titleImage {
 	min-height: 100%;
-	min-width: 1024px;
-
 	width: 100%;
-	height: auto;
+
 	position: fixed;
 
 	background: url('Images/TitleImage.png') no-repeat center center fixed;
