@@ -260,9 +260,9 @@ p {
 
 .projectsButton h3 {
 	display: inline-block;
-	background-color: #283133;
 	letter-spacing: .5em;
-	color: white;
+	background-color: white;
+	color: #283133;
 	margin: 0;
 	padding: 1em 2em;
 	cursor: pointer;
@@ -275,8 +275,8 @@ p {
 
 .projectsButton h3:hover {
 	cursor: pointer;
-	background-color: white;
-	color: #283133;
+	background-color: #283133;
+	color: white;
 }
 
 @media only screen and (max-width: 900px)  {
