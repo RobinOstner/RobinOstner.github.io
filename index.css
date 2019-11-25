@@ -226,7 +226,6 @@ p {
 }
 
 .callToAction {
-  padding-top: 50px;
   text-align: center;
 	background-color: white;
   font-size: 32px;
@@ -250,4 +249,32 @@ p {
 	.callToAction {
 		font-size: 24px;
 	}
+}
+
+.projectsButton {
+	display: flex;
+	justify-content: center;
+	margin-top: 8em;
+	transition: color .3s;
+}
+
+.projectsButton h3 {
+	display: inline-block;
+	background-color: #283133;
+	letter-spacing: .5em;
+	color: white;
+	margin: 0;
+	padding: 1em 2em;
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #283133;
+	transition: color .5s ease,
+							background-color .5s ease;
+}
+
+.projectsButton h3:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #283133;
 }
