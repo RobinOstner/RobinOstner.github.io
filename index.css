@@ -289,3 +289,8 @@ p {
 		font-size: .8em;
 	}
 }
+
+.download {
+	color: #88a1a3;
+	text-decoration: underline;
+}

@@ -225,3 +225,8 @@ li {
   text-align: center;
 	background-color: #f7f5f2;
 }
+
+.download {
+	color: #88a1a3;
+	text-decoration: underline;
+}
